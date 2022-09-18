@@ -14,12 +14,13 @@ class reSecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.firstLabel.text = "Hello World"
-        self.firstLabel.backgroundColor = UIColor.red
+        
 
         // Do any additional setup after loading the view.
     }
     @IBAction func ChangeColorButtonPressed(_ sender: Any) {
+    self.firstLabel.text = "Hello World"
+    self.firstLabel.backgroundColor = UIColor.red
         
         
     }
