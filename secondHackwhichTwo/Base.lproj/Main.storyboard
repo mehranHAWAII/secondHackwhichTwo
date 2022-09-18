@@ -71,6 +71,9 @@
                         <viewLayoutGuide key="safeArea" id="HFO-D3-WMC"/>
                     </view>
                     <navigationItem key="navigationItem" id="doK-KI-1RQ"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="eqF-8b-zP8" id="wqI-Gb-Rbe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1V-ch-qGX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

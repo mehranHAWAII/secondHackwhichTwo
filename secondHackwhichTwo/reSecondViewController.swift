@@ -9,16 +9,19 @@
 import UIKit
 
 class reSecondViewController: UIViewController {
-
+    
+    @IBOutlet weak var firstLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.firstLabel.text = "Hello World"
+        self.firstLabel.backgroundColor = UIColor.red
 
         // Do any additional setup after loading the view.
     }
-    
-    
-    
     @IBAction func ChangeColorButtonPressed(_ sender: Any) {
+        
+        
     }
     
 
